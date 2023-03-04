@@ -1,5 +1,15 @@
 /.idea
 /.vscode
-/vendor
 *.log
 .env
+/public/upload
+/public/docs
+runtime/admin
+runtime/log
+runtime/session
+runtime/temp
+public/conf
+public/WowOss.exe
+app/index/controller/Test.php
+composer.phar
+app/test/
