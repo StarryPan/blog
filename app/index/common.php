@@ -23,6 +23,6 @@ if (!function_exists('sysconfig')) {
         //         Cache::tag('sysconfig')->set("sysconfig_{$group}", $value, 3600);
         //     }
         // }
-        return $value;
+        // return $value;
     }
 }

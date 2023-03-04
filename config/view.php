@@ -28,7 +28,7 @@ return [
     'display_cache' => true,
     // 字符替换
     'tpl_replace_string' => [
-        '__INDEX__'    => $static_src.'/index',
+        '__INDEX__'    => $static_src.'/home',
         '__ADMIN__'    => $static_src.'/admin',
         '__STATIC__'   => $static_src,
     ]
