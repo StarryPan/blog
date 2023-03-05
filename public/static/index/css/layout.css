@@ -1374,6 +1374,15 @@
 
 }
 
+.alert-error {
+	display: none;
+}
+
+.alert-error p {
+	margin: 0;
+	color: red;
+	font-size: 20px;
+}
 .alert-success {
 	display: none;
 }

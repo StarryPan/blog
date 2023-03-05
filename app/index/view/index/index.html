@@ -30,7 +30,7 @@
     <!--<link type="text/css" rel="stylesheet" href="__INDEX__/css/theme-colors/red.css" />-->
     <link type="text/css" rel="stylesheet" href="__INDEX__/css/theme-colors/orange.css" />
     <!--<link type="text/css" rel="stylesheet" href="__INDEX__/css/theme-colors/pink.css" />-->
-    <!--<link type="text/css" rel="stylesheet" href="__INDEX__/css/theme-colors/purple.css" />-->
+    <!-- <link type="text/css" rel="stylesheet" href="__INDEX__/css/theme-colors/purple.css" /> -->
 
     <!--[if lt IE 9]>
     <script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -94,19 +94,20 @@
 							<span class="link">作品</span>
 						</a>
 					</li>
-					<!-- <li>
+					<li>
 						<a href="#blog-card">
 							<span class="icon la la-newspaper-o"></span>
 							<span class="link">项目</span>
 						</a>
-					</li> -->
+					</li>
+					{/eq}
 					<li>
 						<a href="#contacts-card">
 							<span class="icon la la-envelope"></span>
 							<span class="link">联系</span>
 						</a>
 					</li>
-					{/eq}
+					
 				</ul>
 			</div>
 	
@@ -186,15 +187,15 @@
 											<strong>你好，我是 盼盼</strong>，在上海的后端开发人员. <br />
 											我有丰富的后端设计和开发经验 具备高并发处理能力，<br />
 											熟悉缓存，能够独立完成服务器端开发，注重代码质量，<br />
-											有着良好的业务逻辑知识和编码规范意识。我也擅长 <strong>php, python, golang, java,
+											有着良好的业务逻辑知识和编码规范意识。我也擅长 <strong>php, <br />python, golang, java,
 												mysql, redis, html, css, jquery, bootstrap, vue.</strong>
 										</p>
 									</div>
 									<div class="circle-bts">
 										<a href="__STATIC__/cv/张盼盼的简历.pdf"><span><i class="icon la la-download"></i>下载简历</span></a>
-										<a href="#"><i class="icon la la-github"></i></a>
-										<a href="#"><i class="icon la la-stack-overflow"></i></a>
-										<a href="#"><i class="icon la la-skype"></i></a>
+										<a target="_blank" href="https://github.com/StarryPan"><i class="icon la la-github"></i></a>
+										<a target="_blank" href="#"><i class="icon la la-stack-overflow"></i></a>
+										<a target="_blank" href="#"><i class="icon la la-skype"></i></a>
 									</div>
 								</div>
 							</div>
@@ -1175,7 +1176,7 @@
 								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
 	
 									<!-- title -->
-									<div class="title"><span>Get</span> in Touch</div>
+									<div class="title"><span>联系</span> 我</div>
 	
 								</div>
 							</div>
@@ -1187,9 +1188,9 @@
 								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
 									<div class="contacts-item card-box">
 										<div class="icon"><i class="la la-map-marker"></i></div>
-										<div class="name">Address</div>
+										<div class="name">住址</div>
 										<p>
-											France, Paris.
+											上海 闵行
 										</p>
 									</div>
 								</div>
@@ -1198,9 +1199,9 @@
 								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
 									<div class="contacts-item card-box">
 										<div class="icon"><i class="la la-at"></i></div>
-										<div class="name">Email</div>
+										<div class="name">邮箱</div>
 										<p>
-											adlard@example.com
+											13162627490@163.com
 										</p>
 									</div>
 								</div>
@@ -1209,9 +1210,9 @@
 								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
 									<div class="contacts-item card-box">
 										<div class="icon"><i class="la la-phone"></i></div>
-										<div class="name">Phone</div>
+										<div class="name">手机</div>
 										<p>
-											+123 654 78900
+											+86 13162627490
 										</p>
 									</div>
 								</div>
@@ -1220,9 +1221,9 @@
 								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
 									<div class="contacts-item card-box">
 										<div class="icon"><i class="la la-check-square"></i></div>
-										<div class="name">Freelance</div>
+										<div class="name">职位</div>
 										<p>
-											Available
+											后端开发
 										</p>
 									</div>
 								</div>
@@ -1239,7 +1240,7 @@
 								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
 	
 									<!-- title -->
-									<div class="title"><span>Contact</span> Form</div>
+									<div class="title"><span>联系</span> 表单</div>
 	
 								</div>
 							</div>
@@ -1252,29 +1253,32 @@
 											<div class="row">
 												<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
 													<div class="group-val">
-														<input type="text" name="name" placeholder="Full Name" />
+														<input type="text" name="name" placeholder="您的名字" />
 													</div>
 												</div>
 												<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
 													<div class="group-val">
-														<input type="text" name="email" placeholder="Email Address" />
+														<input type="text" name="email" placeholder="你的邮箱" />
 													</div>
 												</div>
 												<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
 													<div class="group-val">
-														<textarea name="message" placeholder="Your Message"></textarea>
+														<textarea name="message" placeholder="您想对我说的"></textarea>
 													</div>
 												</div>
 											</div>
 											<div class="align-left">
 												<a href="#" class="button" onclick="$('#cform').submit(); return false;">
-													<span class="text">Send Message</span>
+													<span class="text">发送消息</span>
 													<span class="icon"><i class="la la-arrow-right"></i></span>
 												</a>
 											</div>
 										</form>
 										<div class="alert-success">
-											<p>Thanks, your message is sent successfully.</p>
+											<p>谢谢，您的邮件已成功发送。</p>
+										</div>
+										<div class="alert-error">
+											<p>错误</p>
 										</div>
 									</div>
 	

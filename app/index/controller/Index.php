@@ -9,11 +9,11 @@ class Index extends CommonController
     {
         $showOther = 0;
         $detailsItems = [
+            ['name' => '姓名', 'value' => '张盼盼'],
             ['name' => '年龄', 'value' => 26],
-            ['name' => '性别', 'value' => '男'],
             ['name' => '学历', 'value' => '本科'],
             ['name' => '身高', 'value' => 172],
-            ['name' => '婚姻', 'value' => '未婚'],
+            ['name' => '位置', 'value' => '上海'],
             ['name' => '工作', 'value' => '2018'],
         ];
 

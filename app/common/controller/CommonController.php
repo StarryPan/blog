@@ -10,6 +10,8 @@ use app\BaseController;
  */
 class CommonController extends BaseController
 {
+    use \app\common\traits\JumpTrait;
+    
     /**
      * 模板布局, false取消
      * @var string|bool
