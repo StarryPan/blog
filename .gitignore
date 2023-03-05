@@ -3,10 +3,6 @@
 *.log
 .env
 /public/upload
-runtime/admin
-runtime/log
-runtime/session
-runtime/temp
+runtime
 app/index/controller/Test.php
 composer.phar
-app/test/
