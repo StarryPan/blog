@@ -1,8 +1,0 @@
-/.idea
-/.vscode
-*.log
-.env
-/public/upload
-runtime
-app/index/controller/Test.php
-composer.phar
