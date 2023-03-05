@@ -1,0 +1,9 @@
+/.idea
+/.vscode
+*.log
+.env
+/public/upload
+runtime/
+public/conf
+composer.phar
+app/test/
