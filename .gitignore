@@ -3,7 +3,7 @@
 *.log
 .env
 /public/upload
-runtime/
+runtime/index
 public/conf
 composer.phar
 app/test/

@@ -14,7 +14,7 @@ class CommonController extends BaseController
      * 模板布局, false取消
      * @var string|bool
      */
-    protected $layout = 'layout/default';
+    protected $layout = false;
 
     
     /**

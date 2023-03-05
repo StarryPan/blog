@@ -5,7 +5,7 @@
 
 return [
     // 应用地址
-    'app_host'         => env('app.host', ''),
+    'app_host'                => env('app.host', ''),
     // 应用调试模式
     'app_debug'               => env('app_debug', false),
     // 应用的命名空间
